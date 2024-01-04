@@ -1,0 +1,68 @@
+
+body, html {
+  font-family: 'Inter', sans-serif;  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* To prevent scrolling */
+  background-color: #151521;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+
+/* .left-section, .right-section {
+  border: 1px solid black; 
+} */
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 30%; /* Take up 60% of the width */
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.right-section {
+  flex: 0 0 60%; /* Take up 40% of the width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensure the image doesn't overflow */
+  margin: 8px;
+  height: 90%;
+}
+.title-container{
+  font-size: 3rem;
+  color: hsl(176.61, 42.28%, 60%);
+  text-align: center;
+  font-weight: 600;
+}
+.explain-container{
+  line-height: 1.5; /* Adjust the value to create space between lines */
+  text-align: justify;
+  font-size: 1.3rem;
+  color: hsl(176.61, 42.28%, 60%);
+}
+.media-container {
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+.nasa-image {
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  max-height: 100%; /* Ensure the image doesn't exceed its container height */
+  object-fit: contain; /* Maintain aspect ratio and fit inside the container */
+  /* border: 1px solid hsl(176.61, 42.28%, 35%); */
+}
