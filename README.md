@@ -31,8 +31,3 @@ If you like topics related to cosmology or photography, be careful, it's highly 
 
 ### YOUTUBE API
  -->
-
-# Image-of-the-day-NASA-API-v2
-# Image-of-the-day-NASA-API-v2
-# Image-of-the-day-NASA-API-v2
-# Image-of-the-day-NASA-API-v2
